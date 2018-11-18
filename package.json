@@ -1,0 +1,14 @@
+{
+  "name": "vue-functional",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "demo": "vue serve demo/commonInject.vue",
+    "play": "vue serve play/play.vue",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
