@@ -25,7 +25,7 @@ export default {
       newRender.ori = old
     }
     const cloneItem = { ...item, render: newRender }
-    const oriVNode = h(cloneItem, context.data, context.children)
+    const oriVNode = h({ extends: cloneItem }, context.data, context.children)
 
     console.info('cloneItem render', oriVNode, cloneItem)
 

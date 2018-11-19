@@ -1,9 +1,5 @@
 <template>
     <div class="add-common-part">
-        <div class="right">
-            after：
-            <fn-comp v-for="i in [1,2,3]" :key='i'>{{i}}</fn-comp>
-        </div>
         <div class="left">
             ori：
             <item v-for="i in [1,2,3]" :key='i'>{{i}}</item>
